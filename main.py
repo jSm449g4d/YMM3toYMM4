@@ -3,7 +3,6 @@
 from ARutil import ffzk,mkdiring
 import os
 import shutil
-import resampy
 import re
 
 if __name__=="__main__":
