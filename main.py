@@ -6,7 +6,8 @@ import shutil
 import re
 
 if __name__=="__main__":
-    ymm3=input("plz input YMM3_materials folder>>")
+    ymm3=input("plz input YMM3_materials folder "
+    "(Selected material folder will be overwritten!)>>")
     materials=[]
     for fl in ffzk(ymm3):
         materials.append(fl)
