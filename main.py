@@ -4,11 +4,14 @@ from ARutil import ffzk,mkdiring
 import os
 import shutil
 import re
+import sys
 
 if __name__=="__main__":
-    ymm3=input("plz input YMM3_materials folder "
-    "(Selected material folder will be overwritten!)>>")
-    materials=[]
+    ymm3="";materials=[]
+    if 1<len(sys.argv):ymm3 = sys.argv[1]
+    else:
+        ymm3=input("plz input YMM3_materials folder "
+        "(Selected material folder will be overwritten!)>>")
     for fl in ffzk(ymm3):
         materials.append(fl)
         print(fl)
