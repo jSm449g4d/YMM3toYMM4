@@ -9,7 +9,7 @@ https://manjubox.net/
 `python3 main.py` or `python main.py` (windows+anaconda)  
 please input YMM3_materials folder (Selected material folder will be overwritten!)
 ## I am not well understand!
-1.please download only **main.exe**
+1.please download only **main.exe**  
 2.please **drag and drop** YMM3_materials into **main.exe**
 ### License
 MIT
