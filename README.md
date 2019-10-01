@@ -7,5 +7,6 @@ https://manjubox.net/
 `pip install git+https://github.com/jSm449g4d/AR9`  
 `cd ./YMM3toYMM4`  
 `python3 main.py` or `python main.py` (windows+anaconda)  
+please input YMM3_materials folder (Selected material folder will be overwritten!)
 ### License
 MIT
