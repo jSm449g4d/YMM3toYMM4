@@ -19,13 +19,14 @@ if __name__=="__main__":
     print("===========================")
 
     for fl in materials:
+        #Ornaments in YMM4
         fln=re.sub(r'[/\\]顔[/\\]',"/他/face_",fl)
         fln=re.sub(r'[/\\]後[/\\]',"/他/back_",fln)
         fln=re.sub(r'[/\\]全[/\\]',"/他/all_",fln)
         fln=re.sub(r'[/\\]服上[/\\]',"/他/clothes1_",fln)
         fln=re.sub(r'[/\\]服下[/\\]',"/他/clothes2_",fln)
         fln=re.sub(r'[/\\]髪[/\\]',"/他/Hairstyle_",fln)
-        if fl!=fln:shutil.move(fl,fln);fl=fln
+        if fl!=fln:shutil.move(fl,fln);fl=fln;continue
 
         if "." not in fl:continue
         if fl.split(".")[-1] not in ["bmp","jpg","jpeg","png"]:continue
